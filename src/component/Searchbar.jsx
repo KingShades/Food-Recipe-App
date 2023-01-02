@@ -3,7 +3,7 @@ import React from "react";
 const SearchBar = ({ handleSubmit, query, setQuery }) => {
   return (
     <form onSubmit={handleSubmit}>
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-8 text-5xl bg-red-300 text-white text-center rounded-full shadow-lg hover:bg-blue-200 w-3/6">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-8 text-5xl bg-red-300 text-white text-center rounded-full shadow-lg hover:bg-blue-200 w-3/6 mb-3">
         <div className="relative w-full flex justify-center items-center">
           <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
             <svg
